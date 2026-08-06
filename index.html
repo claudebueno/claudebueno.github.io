@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude BUENO | Coaching agile et Leadership</title>
+  <meta name="description" content="Claude BUENO | Coaching agile et Leadership">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="grain"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#accueil" class="nav__brand">Claude BUENO</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav__links" id="navLinks">
+      <a href="#apropos" data-nav>À propos</a>
+      <a href="#competences" data-nav>Compétences</a>
+      <a href="#projets" data-nav>Articles</a>
+      <a href="#contact" data-nav>Contact</a>
+    </div>
+    <a href="#contact" class="nav__cta">Réserver un échange</a>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="accueil">
+    <div class="hero__orb" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <p class="eyebrow">Coaching agile &amp; Leadership</p>
+      <h1 class="hero__title">
+        <span class="w-bold w-accent">Coach Agile</span><br />
+        <em class="w-italic">Management opérationnel & Leadership </em><br />
+        <em class="w-italic">Alignement stratégique</em>.
+      </h1>
+      <p class="hero__lead">
+        J'accompagne les équipes et les organisations vers plus de clarté, de confiance et de coopération, en alignant
+        les pratiques agiles avec les objectifs stratégiques.
+      </p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Réserver un échange</a>
+        <a href="#competences" class="btn btn--ghost">Voir mon approche</a>
+      </div>
+      <p class="hero__meta">
+        <a href="https://www.claudebueno.com" target="_blank" rel="noopener">Lire le blog ↗</a>
+        &nbsp;·&nbsp; Missions en France &amp; à distance
+      </p>
+    </div>
+    <a href="#apropos" class="hero__scroll" aria-label="Défiler vers la section À propos">
+      <span></span>
+    </a>
+  </header>
+
+  <main>
+
+    <!-- À PROPOS -->
+    <section class="section" id="apropos">
+      <div class="section__head reveal">
+        <p class="eyebrow">À propos</p>
+        <h2>Un parcours au croisement du management, <br class="br-desktop"> du digital et de l'agilité.</h2>
+      </div>
+
+      <div class="about">
+        <div class="about__portrait reveal">
+          <div class="portrait">
+            <div class="portrait__frame"><img
+                src="https://www.claudebueno.com/wp-content/uploads/2023/04/claude-bueno-profil-rs.png">
+            </div>
+          </div>
+        </div>
+
+        <div class="about__content reveal">
+          <p class="about__text">
+            Je suis Claude Bueno. Mon parcours n'a rien de linéaire : il s'est construit au
+            croisement du management, des systèmes d'information, de l'agilité et du
+            développement logiciel. Avec le temps, j'ai compris qu'une organisation ne change
+            pas parce qu'elle adopte une méthode à la mode, mais quand elle apprend à mieux se
+            comprendre, mieux coopérer et mieux décider.
+          </p>
+          <p class="about__text">
+            C'est cette conviction qui guide mon accompagnement : de la confiance, de la
+            clarté et de l'écoute plutôt que des réponses toutes faites. Je coache des
+            équipes et des managers.
+          </p>
+
+          <div class="certifications">
+            <div class="certification">
+              <img
+                src="https://i0.wp.com/www.claudebueno.com/wp-content/uploads/2024/05/safe-agilist-claude-bueno-150x150-1.png?w=150&ssl=1"
+                alt="SAFe Agilist" class="certification-logo">
+              <p class="certification-title">SAFe® Agilist</p>
+            </div>
+            <div class="certification">
+              <img
+                src="https://i0.wp.com/www.claudebueno.com/wp-content/uploads/2026/05/badge-pspo-i-600x600-1.png?resize=300%2C300&ssl=1"
+                alt="PSPO I" class="certification-logo">
+              <p class="certification-title">Professional Scrum Product Owner™</p>
+            </div>
+            <div class="certification">
+              <img
+                src="https://i0.wp.com/www.claudebueno.com/wp-content/uploads/2024/12/scrum-psm-claude-bueno.png?resize=300%2C300&ssl=1"
+                alt="PSM I" class="certification-logo">
+              <p class="certification-title">Professional Scrum Master™</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="section section--tinted" id="competences">
+      <div class="section__head reveal">
+        <p class="eyebrow">Compétences</p>
+        <h2>Une méthode, quatre terrains d'intervention.</h2>
+        <p class="section__lead">
+          Chaque équipe a son rythme. Voici les leviers que j'active, seuls ou combinés,
+          selon ce dont vous avez besoin.
+        </p>
+      </div>
+
+      <div class="skills reveal">
+        <div class="skills__tabs" role="tablist" aria-label="Compétences">
+          <button class="skills__tab is-active" role="tab" aria-selected="true" data-tab="facilitation">
+            <span class="skills__tab-title">Facilitation</span>
+            <span class="skills__tab-sub">Ateliers &amp; cérémonies</span>
+          </button>
+          <button class="skills__tab" role="tab" aria-selected="false" data-tab="coaching">
+            <span class="skills__tab-title">Coaching d'équipe</span>
+            <span class="skills__tab-sub">Individuel &amp; collectif</span>
+          </button>
+          <button class="skills__tab" role="tab" aria-selected="false" data-tab="frameworks">
+            <span class="skills__tab-title">Frameworks</span>
+            <span class="skills__tab-sub">Scrum · Kanban · SAFe</span>
+          </button>
+          <button class="skills__tab" role="tab" aria-selected="false" data-tab="transformation">
+            <span class="skills__tab-title">AI-Native</span>
+            <span class="skills__tab-sub">Transformation &amp; outils</span>
+          </button>
+        </div>
+
+        <div class="skills__panel">
+          <div class="skills__visual" id="skillsVisual" aria-hidden="true">
+            <div class="viz viz--facilitation is-active">
+              <span class="viz__dot"></span><span class="viz__dot"></span><span class="viz__dot"></span>
+            </div>
+            <div class="viz viz--coaching">
+              <span class="viz__bubble"></span><span class="viz__bubble"></span>
+            </div>
+            <div class="viz viz--frameworks">
+              <span class="viz__col"></span><span class="viz__col"></span><span class="viz__col"></span>
+            </div>
+            <div class="viz viz--transformation">
+              <span class="viz__bar"></span><span class="viz__bar"></span><span class="viz__bar"></span><span
+                class="viz__bar"></span>
+            </div>
+          </div>
+
+          <div class="skills__text" id="skillsText">
+            <div class="skills__pane is-active" data-pane="facilitation">
+              <h3>Facilitation</h3>
+              <p>Je conçois et anime vos Daily, Sprint Planning, Rétrospectives et Revues
+                pour qu'ils redeviennent des moments utiles — courts, vivants, et suivis d'effets.</p>
+            </div>
+            <div class="skills__pane" data-pane="coaching">
+              <h3>Coaching d'équipe</h3>
+              <p>Séances individuelles pour les Product Owners et Scrum Masters, et coaching
+                collectif pour désamorcer les tensions et clarifier les rôles.</p>
+            </div>
+            <div class="skills__pane" data-pane="frameworks">
+              <h3>Frameworks</h3>
+              <p>Scrum, Kanban, SAFe — je choisis et j'adapte le cadre à votre contexte,
+                jamais l'inverse. Le framework sert l'équipe, pas le contraire.</p>
+            </div>
+            <div class="skills__pane" data-pane="transformation">
+              <h3>AI-Native</h3>
+              <p>J'aide les équipes à passer du batch au temps réel et à intégrer l'IA
+                générative dans leurs processus, sans déshumaniser le service ni le travail.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section" id="projets">
+      <div class="section__head reveal">
+        <p class="eyebrow">Articles</p>
+        <h2>Derniers billets du blog.</h2>
+        <p class="section__lead">
+          J'écris sur l'agilité, le produit, l'AI-Native et le développement logiciel.
+          Quelques articles récents :
+        </p>
+      </div>
+
+      <div class="projects reveal">
+        <a class="project-card" href="https://www.claudebueno.com/ressources/jai-adopte-zed-pour-coder-plus-vite.htm"
+          target="_blank" rel="noopener">
+          <p class="project-card__tag">Ressources · 12 juillet 2026</p>
+          <h3>J'ai adopté Zed pour coder plus vite</h3>
+          <p>Moins de friction et une intégration fluide de l'IA dans le quotidien de développeur.</p>
+          <p class="project-card__result">Lire l'article →</p>
+        </a>
+
+        <a class="project-card"
+          href="https://www.claudebueno.com/ressources/comment-jai-reussi-pspo-i-et-comment-tu-peux-aussi.htm"
+          target="_blank" rel="noopener">
+          <p class="project-card__tag">Ressources · 6 juillet 2026</p>
+          <h3>Comment j'ai réussi PSPO I</h3>
+          <p>Le retour d'expérience concret sur la préparation de la certification Scrum.org.</p>
+          <p class="project-card__result">Lire l'article →</p>
+        </a>
+
+        <a class="project-card"
+          href="https://www.claudebueno.com/ai-native-et-transformation/processus-ai-native-du-batch-au-temps-reel.htm"
+          target="_blank" rel="noopener">
+          <p class="project-card__tag">AI-Native &amp; transformation · 12 juin 2026</p>
+          <h3>Processus AI-Native : du batch au temps réel</h3>
+          <p>Monitoring, alertes et boucles de feedback pour piloter ses décisions avec la donnée.</p>
+          <p class="project-card__result">Lire l'article →</p>
+        </a>
+
+        <a class="project-card"
+          href="https://www.claudebueno.com/ai-native-et-transformation/agents-ia-autonomes-comprendre-ce-changement-de-paradigme.htm"
+          target="_blank" rel="noopener">
+          <p class="project-card__tag">AI-Native &amp; transformation · 1 juin 2026</p>
+          <h3>Agents IA autonomes</h3>
+          <p>Comprendre ce changement de paradigme qui transforme déjà le travail quotidien.</p>
+          <p class="project-card__result">Lire l'article →</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHIE -->
+    <section class="section section--tinted" id="philosophie">
+      <div class="section__head reveal">
+        <p class="eyebrow">Ma philosophie</p>
+        <h2>Trois convictions qui guident chaque mission.</h2>
+      </div>
+
+      <div class="values reveal">
+        <div class="value">
+          <span class="value__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 21s-7-4.5-9.5-9C1 8 3 4 7 4c2 0 4 1.5 5 3 1-1.5 3-3 5-3 4 0 6 4 4.5 8-2.5 4.5-9.5 9-9.5 9z"
+                stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" />
+            </svg>
+          </span>
+          <h3>Confiance</h3>
+          <p>Les transformations solides ne reposent pas sur des outils, mais sur la confiance entre les personnes.</p>
+        </div>
+        <div class="value">
+          <span class="value__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4 12h16M4 12l5-5M4 12l5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </span>
+          <h3>Clarté &amp; écoute</h3>
+          <p>Je ne cherche pas à donner des réponses toutes faites, mais des repères clairs et des questions utiles.</p>
+        </div>
+        <div class="value">
+          <span class="value__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M3 17l6-6 4 4 8-8M21 7v6M21 7h-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </span>
+          <h3>Pragmatisme</h3>
+          <p>Relier les personnes, les pratiques et la technologie — pour un travail plus juste et plus efficace.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="contact__inner reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Parlons de votre équipe.</h2>
+        <p class="section__lead">
+          Un premier échange de 30 minutes, sans engagement, pour comprendre votre contexte
+          et voir si je peux vous aider.
+        </p>
+
+        <form class="contact-form" id="contactForm">
+          <div class="contact-form__row">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="contact-form__row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="contact-form__row">
+            <label for="message">Votre besoin</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Envoyer le message</button>
+          <p class="contact-form__note" id="contactNote" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <p class="footer__name">Claude BUENO</p>
+        <p class="footer__tagline">Claude BUENO <br /> Coaching agile et Leadership</p>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__title">Navigation</p>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Articles</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__title">Contact</p>
+        <a href="mailto:[email protected]">contact@claudebueno.com</a>
+        <a href="#contact">Réserver un échange</a>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__title">Ailleurs</p>
+        <a href="https://www.claudebueno.com" target="_blank" rel="noopener">Le blog</a>
+        <a href="https://twitter.com/claudebueno" target="_blank" rel="noopener">Twitter / X</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> Claude Bueno. Tous droits réservés.</p>
+      <a href="#accueil">Remonter ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
