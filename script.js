@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const subject = encodeURIComponent(`Prise de contact de ${name}`);
       const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
-      window.location.href = `mailto:[email protected]?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:contact@claudebueno.com?subject=${subject}&body=${body}`;
 
       note.textContent = "Ton client mail va s'ouvrir pour finaliser l'envoi.";
       form.reset();
