@@ -13,7 +13,7 @@
   --clay-soft: #E8A87C;
   --plum: #8C6FA0;
 
-  --font-display: "Fraunces", serif;
+  --font-display: /*"Fraunces",*/ serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
 
